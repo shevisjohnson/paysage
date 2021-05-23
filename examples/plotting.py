@@ -18,7 +18,7 @@ def plot_image(image_vector, shape, vmin=0, vmax=1, filename=None, show=True,
     ax.set(xticks=[])
 
     if show:
-        plt.show(f)
+        f
     if filename is not None:
         f.savefig(filename)
     plt.close(f)
@@ -40,7 +40,7 @@ def plot_image_grid(image_array, shape, vmin=0, vmax=1, filename=None, show=True
             axes[i][j].set(xticks=[])
     plt.tight_layout(pad=0.5, h_pad=0.2, w_pad=0.2)
     if show:
-        plt.show(f)
+        f
     if filename is not None:
         f.savefig(filename)
     plt.close(f)

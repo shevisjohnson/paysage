@@ -80,4 +80,4 @@ if __name__ == "__main__":
         c = be.corr(conn.weights.W(), conn.weights.W())
         fig, ax = plt.subplots()
         seaborn.heatmap(be.to_numpy_array(c), vmin=-1, vmax=1, ax=ax)
-        plt.show(fig)
+        #fig.show()

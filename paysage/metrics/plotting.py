@@ -70,7 +70,7 @@ def plot_metrics(history, filename=None, show=True):
 
     plt.tight_layout(pad=0.5, h_pad=0.2, w_pad=0.2)
     if show:
-        plt.show(f)
+        f
     if filename is not None:
         f.savefig(filename)
     plt.close(f)
